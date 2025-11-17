@@ -29,8 +29,8 @@ def generate_random_board():
     
     return board, random_moves_for_board
 
-with tqdm(total=5) as pbar:
-    while len(dataset) < 5:
+with tqdm(total=1000) as pbar:
+    while len(dataset) < 1000:
         try: 
             board, random_moves_for_board = generate_random_board()
 
